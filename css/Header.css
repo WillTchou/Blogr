@@ -1,0 +1,84 @@
+a{
+    text-decoration: none;
+}
+
+nav{
+    display: flex;
+    margin:auto;
+    padding:3rem;
+}
+
+nav ul{   
+    display:flex;
+    flex:1 1 ;
+    list-style: none;
+}
+
+nav .connect li{
+    padding:0px 10px;
+}
+
+nav .pages{
+    padding-left: 30px;
+}
+
+nav .pages li{
+    display: flex;
+    padding: 0px 20px;
+}
+
+
+#login{
+    color:white;
+}
+
+.connect{
+    justify-content: flex-end;
+}
+
+.pattern{
+    overflow: 'hidden';
+    background-size: 20px 30px;
+}
+
+.boutons{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    margin-bottom:100px;
+    list-style: none;
+}
+
+.presentation p{
+    padding-top: 20px;
+}
+
+.boutons li{
+    margin-right:12px;
+}
+
+.bb{
+    border-radius: 40px;
+    color:hsl(356, 100%, 66%);
+    background-color: aliceblue;
+    padding:12px 26px;
+}
+
+.bab{
+    border-radius: 40px;
+    color:white;
+    border: 2px solid white;
+    border-color: white;
+    background-color: rgba(100,100,100, 0);
+    padding:12px 26px;
+}
+
+.Header{
+    text-align: center;
+    background-image:url(bg-pattern-intro.svg),linear-gradient(0.25turn,hsl(13, 100%, 72%), hsl(353, 100%, 62%));
+    overflow: hidden;
+    background-attachment: fixed;
+    background-position: 10% -850px;
+    border-bottom-left-radius: 60px;
+    color:white; 
+}

@@ -1,0 +1,50 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: content-box;
+}
+
+footer{
+    background-color:hsl(240, 10%, 16%);
+    border-top-right-radius: 60px; 
+    padding:50px;
+}
+
+h1{
+    color:white;
+}
+
+.col h4{
+    color:white;
+    text-transform: capitalize;
+    padding-bottom: 30px;
+}
+
+ul{
+    list-style: none;
+    color:white;
+}
+
+.row{
+    display:flex;
+    flex-wrap: nowrap;
+    padding:0px 80px;
+    padding-top: 80px;
+}
+
+.col{
+    width:22%;
+    padding:0 12%;
+
+}
+
+.col ul li a{
+    text-transform: capitalize;
+    text-decoration: none;
+    color:white;
+    display: block;
+}
+
+.col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
